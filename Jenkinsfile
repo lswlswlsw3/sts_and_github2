@@ -12,7 +12,7 @@ node {
 	}
 	stage('Build')
 	{
-		echo "Build!"
+		echo "Build!!"
 	}
 	stage('Unit Testing')
 	{
