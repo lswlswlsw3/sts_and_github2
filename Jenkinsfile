@@ -8,7 +8,7 @@ node {
 	}
 	stage('Static Code Analysis')
 	{
-		echo "Static code Analysis!"
+		echo "Static code Analysis!!"
 	}
 	stage('Build')
 	{
