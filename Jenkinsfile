@@ -8,18 +8,18 @@ node {
 	}
 	stage('Static Code Analysis')
 	{
-		echo "Static code Analysis"
+		echo "Static code Analysis!"
 	}
 	stage('Build')
 	{
-		echo "Build"
+		echo "Build!"
 	}
 	stage('Unit Testing')
 	{
-		echo "Unit Testing"
+		echo "Unit Testing!"
 	}
 	stage('Delivery')
 	{
-		echo "Delivery"
+		echo "Delivery!"
 	}
 }
