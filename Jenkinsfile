@@ -20,6 +20,6 @@ node {
 	}
 	stage('Delivery')
 	{
-		echo "Delivery!"
+		echo "Delivery!!"
 	}
 }
