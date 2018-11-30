@@ -12,7 +12,8 @@ node {
 	}
 	stage('Build')
 	{
-		echo "Build!!"
+		
+		sh "./gradlew clean build"
 	}
 	stage('Unit Testing')
 	{
